@@ -27,10 +27,10 @@ namespace BattleSimulator
                 Name = Name,
                 Stats = new Stats
                 {
-                    Health = 500,
-                    Attack = 150,
-                    Defence = 250,
-                    Speed = 200
+                    Health = Health,
+                    Attack = Attack,
+                    Defence = Defence,
+                    Speed = Speed
                 },
 
                 Moves1 = new Moves
