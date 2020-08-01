@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace BattleSimulator
 {
-    class Program
+    class Moves
     {
-        static void Main(string[] args)
-        {
-        }
+        public string Name { get; set; }
+
+        public double Damage { get; set; }
+
     }
 }
